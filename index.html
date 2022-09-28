@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photogallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a href="#top">Top</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="images/TK.png" alt="photo of photographer" class="TK_img"> 
+            <h2 class="about_section">About</h2>
+            <p class="about_section">Hello!<br>I&apos;m TK and I&apos;m a photographer.<br>I love looking at life through the lens of my<br>camera. Landscape photography is my<br>speciality and it&apos;s taken me all over the world.</p>  
+        </section>
+        <section>
+            <h2 class="gallery_section">Gallery</h2>
+            <p class="gallery_section">Here are some highlights of my work.<br>The locations and year are in the caption.</p>
+            <img src="images/Chile.png" alt="Chile, 2001" title="Chile, 2001" class="gallery">
+            <img src="images/Guatemala.png" alt="Guatemala, 1997" class="gallery">
+            <img src="images/Hawaii.png" atl="Hawaii, 2010" class="gallery">
+            <img src="images/Iran.png" alt="Iran, 1999" class="gallery_vertical">
+            <img src="images/Ireland.png" alt="Ireland, 2012" class="gallery_vertical">
+            <img src="images/Italy.png" alt="Italy, 2015" class="gallery_vertical">
+            <img src="images/Moab-Desert.png" alt="Moab Desert, 2020" class="gallery">
+            <img src="images/Rocky-Mountains.png" alt="Rocky Mountains, 2009" class="gallery">
+            <img src="images/Switzerland.png" alt="Switzerland, 2014" class="gallery">
+            <img src="images/UK.png" alt="UK, 2005" class="gallery">
+            <img src="images/USA.png" alt="USA, 2021" class="gallery">
+            <img src="images/Wyoming.png" alt="Wyoming, 2021" class="gallery">          
+        </section>
+    </main>
+    <footer>
+        <h2>Contact</h2>
+        <p>Please fill out this form and I&apos;ll connect with you soon.</p>
+
+        <p class="hide">Your contact information</p>
+        <form method="get">
+            <p><label for="full_name">Name</label><br>
+            <input type="text" id="full_name" name="full_name" value="Your full name"></p>
+
+            <p><label for="email">Email</label><br>
+            <input type="text" id="email" name="email" value="Enter your email address"></p>
+
+            <p><label for="message">Message</label><br>
+            <input type="text" id="message" name="message" value="What can I help you with?"></p>
+
+            <p class="button"><input type="submit" value="Submit"></p>
+        </form>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
+</body>
+</html>
